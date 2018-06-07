@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.panel {
+  padding:20px;
+}
+
+.popover {
+  background-color: black;
+  color: white;
+}
+
+.popover.top>.arrow:after{
+  border-top-color: black;
+}
+.popover.top>.arrow {
+  left: 75% !important;
+}
+
+.panel{
+  text-align: left;
+}
+
+
+.progress{
+  margin-top:60px;
+  margin-bottom:0px;
+  border:1px solid #e2dede;
+  border-radius: 0px;
+}
+.progress-bar {
+  width: 25%;
+  background-color: #ff5722;
+}
+
+.panel p {
+  font-weight: bold;
+}
+.days-left {
+  color: orange;
+}
